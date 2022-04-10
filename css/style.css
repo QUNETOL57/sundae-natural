@@ -1710,11 +1710,11 @@ h1, h2, h3, h4, h5,
     color: #000 !important;
 }
 
-.footer-suscribe-form .btn {
-    background: #7a5e86;
-    color: #fff;
-    border-color: #7a5e86;
-}
+/*.footer-suscribe-form .btn {*/
+/*    background: #7a5e86;*/
+/*    color: #fff;*/
+/*    border-color: #7a5e86;*/
+/*}*/
 
 .pricing {
     background: #fff;
