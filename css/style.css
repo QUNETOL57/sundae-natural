@@ -1784,3 +1784,25 @@ h1, h2, h3, h4, h5,
 .top-bar {
     background: #111111;
 }
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ddffe5;
+}
+
+button:focus {
+    outline: 5px auto #a0e4b0;
+}
+
+#eskimo-section, #eskimo-ice, #eskimo-section2 {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .vertical-img {
+        width: 50%;
+    }
+}
+
+.block-heading-2 h2 {
+    font-size: 5rem;
+    color: #a0e4b0;
+}
