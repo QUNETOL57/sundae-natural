@@ -1779,6 +1779,7 @@ h1, h2, h3, h4, h5,
 
 .img-eskimo {
     width: 100%;
+    cursor: pointer;
 }
 
 .top-bar {
@@ -1792,7 +1793,7 @@ button:focus {
     outline: 5px auto #a0e4b0;
 }
 
-#eskimo-section, #eskimo-ice, #eskimo-section2 {
+.site-section {
     overflow: hidden;
 }
 
@@ -1800,9 +1801,28 @@ button:focus {
     .vertical-img {
         width: 50%;
     }
+
+    .block-heading-2 h2 {
+        font-size: 3rem !important;
+    }
 }
 
 .block-heading-2 h2 {
     font-size: 5rem;
     color: #a0e4b0;
+}
+
+.block-social-2 a {
+    color: #a0e4b0;
+    font-size: 2em;
+}
+
+#manufacture-section {
+    background-image: "images/ekskursiya-na-fabriku-baskin-robbins.jpg";
+}
+
+#lang-icon {
+    position: absolute;
+    top: 38%;
+    left: 0%;
 }
