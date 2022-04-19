@@ -1805,6 +1805,10 @@ button:focus {
     .block-heading-2 h2 {
         font-size: 3rem !important;
     }
+
+    #lang-icon {
+        display: none;
+    }
 }
 
 .block-heading-2 h2 {
@@ -1815,10 +1819,6 @@ button:focus {
 .block-social-2 a {
     color: #a0e4b0;
     font-size: 2em;
-}
-
-#manufacture-section {
-    background-image: "images/ekskursiya-na-fabriku-baskin-robbins.jpg";
 }
 
 #lang-icon {
