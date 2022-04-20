@@ -1781,6 +1781,10 @@ h1, h2, h3, h4, h5,
     width: 100%;
     cursor: pointer;
 }
+.img-horn {
+    width: 50%;
+    cursor: pointer;
+}
 
 .top-bar {
     background: #111111;
@@ -1810,6 +1814,8 @@ button:focus {
         display: none;
     }
 }
+
+
 
 .block-heading-2 h2 {
     font-size: 5rem;
