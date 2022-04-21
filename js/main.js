@@ -213,7 +213,7 @@ jQuery(document).ready(function($) {
 
    	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function(e) {
       e.preventDefault();
-
+		$('body').removeClass('offcanvas-menu');
       var hash = this.hash;
 
       $('html, body').animate({
