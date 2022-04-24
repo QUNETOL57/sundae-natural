@@ -1133,7 +1133,7 @@ h1, h2, h3, h4, h5,
 .site-section-cover h1 {
     font-size: 4.5rem;
     color: #fff;
-    line-height: 1;
+    /*line-height: 1;*/
 }
 
 @media (max-width: 991.98px) {
@@ -1815,8 +1815,6 @@ button:focus {
     }
 }
 
-
-
 .block-heading-2 h2 {
     font-size: 5rem;
     color: #a0e4b0;
@@ -1831,4 +1829,24 @@ button:focus {
     position: absolute;
     top: 38%;
     left: 0%;
+}
+
+.text-black a {
+    color: #000000;
+}
+
+.text-black a:hover {
+    color: #000000;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+}
+
+.text-green {
+    color: #a0e4b0;
+}
+
+.text-green:hover {
+    color: #000000;
 }
